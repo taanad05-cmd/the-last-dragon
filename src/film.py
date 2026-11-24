@@ -2161,7 +2161,7 @@ def shot9c(lt, T):
         card = Image.fromarray(np.uint8(a))
         shadow = Image.new('RGBA', card.size, (40, 20, 10, 0))
         shadow.putalpha(card.split()[3].point(lambda v: int(v * 0.35)))
-        px, py = int(W - card.size[0] - 70), 40
+        px, py = int(W - card.size[0] - 190), 40
         out.alpha_composite(shadow.filter(ImageFilter.GaussianBlur(8)), (px + 6, py + 10))
         out.alpha_composite(card, (px, py))
     fade = 1 - ease_in_out_fade(lt, 2.9, 3.85)
