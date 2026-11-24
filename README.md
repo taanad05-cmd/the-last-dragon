@@ -13,6 +13,13 @@ self-contained HTML file.
 | The Last Dragon | 61 s | [01_the_last_dragon_prompt.txt](prompts/01_the_last_dragon_prompt.txt) |
 | The First Spring | 52 s | [02_the_first_spring_prompt.txt](prompts/02_the_first_spring_prompt.txt) |
 
+## Watch
+
+- [`films/the_last_dragon.mp4`](films/the_last_dragon.mp4) / [`films/the_last_dragon.html`](films/the_last_dragon.html)
+- [`films/the_first_spring.mp4`](films/the_first_spring.mp4) / [`films/the_first_spring.html`](films/the_first_spring.html)
+
+(Download an `.html` file and open it in a browser: it is the whole film in one self-contained file.)
+
 ## How it works
 
 | File | What it does |
